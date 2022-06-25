@@ -9,7 +9,7 @@ public class Main {
         System.out.println("На 24 месяцев");
         System.out.println("Ежемесячный платеж" + " " + service.calculate(1000000, 24, interestRateMounth) + "руб." + " " + "Процентная ставка" + " " + interestRate + "%");
         System.out.println("На 36 месяцев");
-        System.out.println ("Ежемесячный платеж" + " " + service.calculate(1000000, 36, interestRateMounth) + "руб." + " " + "Процентная ставка" + " " + interestRate + "%");
+        System.out.println("Ежемесячный платеж" + " " + service.calculate(1000000, 36, interestRateMounth) + "руб." + " " + "Процентная ставка" + " " + interestRate + "%");
     }
 
 }
